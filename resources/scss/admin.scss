@@ -1,0 +1,84 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.admin-main{
+    margin-left: 225px;
+    padding: 60px 30px;
+}
+
+//Admin navigation menu
+.side-nav{
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 200px;
+    padding: 40px 0;
+
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 35px;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    text-transform: uppercase;
+}
+
+.nav-list-mine{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline-start: 0px;
+}
+
+.nav-link-mine{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+
+li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    font-weight: bold;
+
+}
+
+li a:hover{
+    color: antiquewhite;
+    transform: scale(1.25);
+    transition: 0.3s;
+}
+
+.logout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logout-btn{
+    background-color: red;
+    color: #fff;
+    height: 60px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+.logout-btn:hover{
+    background-color: transparent;
+    cursor: pointer;
+    color: red;
+}
