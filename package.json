@@ -7,9 +7,10 @@
         "postinstall": "vite build"
     },
     "devDependencies": {
+        "@vitejs/plugin-vue": "^4.2.3",
         "axios": "^1.1.2",
-        "laravel-vite-plugin": "^0.7.5",
+        "laravel-vite-plugin": "^0.7.8",
         "sass": "^1.64.0",
-        "vite": "^4.0.0"
+        "vite": "^4.4.6"
     }
 }
